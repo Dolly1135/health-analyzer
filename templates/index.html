@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Analyzer</title>
+</head>
+
+<body style="font-family:sans-serif; text-align:center;">
+<h1>🩺 AI Health Report Analyzer</h1>
+
+<form method="POST">
+    <label>Hemoglobin:</label><br>
+    <input type="number" step="0.1" name="hb" required><br><br>
+
+    <label>Sugar Level:</label><br>
+    <input type="number" step="0.1" name="sugar" required><br><br>
+
+    <button type="submit">Analyze</button>
+</form>
+
+<h2>Result:</h2>
+<pre>{{ result }}</pre>
+
+</body>
+</html>
